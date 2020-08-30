@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Daily Calculator</string>
+
+    <string-array name="weather_string">
+        <item>FAHRENHEIT</item>
+        <item>CELSIUS</item>
+    </string-array>
+
+    <string-array name="distance_string">
+        <item>KILOMETRE</item>
+        <item>METRE</item>
+        <item>CENTIMETRE</item>
+        <item>MILLIMETRE</item>
+        <item>MICROMETRE</item>
+        <item>MILE</item>
+        <item>FOOT</item>
+        <item>INCH</item>
+    </string-array>
+
+    <string-array name="speed_string">
+        <item>MILES PER HOUR</item>
+        <item>FOOT PER SECOND</item>
+        <item>METRE PER SECOND</item>
+        <item>KILOMETRE PER HOUR</item>
+    </string-array>
+
+    <string-array name="weight_string">
+        <item>TONNE</item>
+        <item>KILOGRAM</item>
+        <item>GRAM</item>
+        <item>MILLIGRAM</item>
+        <item>MICROGRAM</item>
+        <item>POUND</item>
+        <item>OUNCE</item>
+    </string-array>
+
+    <string-array name="cup_string">
+        <item>LITRE</item>
+        <item>MILLILITRE</item>
+        <item>IMPERIAL GALLON</item>
+        <item>IMPERIAL CUP</item>
+        <item>CUBIC FOOT</item>
+        <item>CUBIC INCH</item>
+    </string-array>
+
+    <string-array name="shape_string">
+        <item>SQUARE KILOMETRE</item>
+        <item>SQUARE METRE</item>
+        <item>SQUARE MILE</item>
+        <item>SQUARE FOOT</item>
+        <item>SQUARE INCH</item>
+        <item>HECTARE</item>
+    </string-array>
+
+    <string name="about">In this app you will easily convert temperature, speed, area, liquid, weight and distance.</string>
+
+</resources>

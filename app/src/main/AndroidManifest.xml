@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.dailycalculator.asus.dailycalculatorapps">
+
+    <uses-permission android:name="android.permission.INTERNET">
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+    </uses-permission>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/logo"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/logo"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-1818607113375588~2979200253"/>
+
+        <activity android:name=".SplashScreenAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".weatheract"
+                  android:parentActivityName=".MainActivity"
+        >
+        </activity>
+        <activity android:name=".weightact"
+                  android:parentActivityName=".MainActivity"
+        >
+        </activity>
+        <activity android:name=".speedact"
+                  android:parentActivityName=".MainActivity"
+        >
+        </activity>
+        <activity android:name=".shapeact"
+                  android:parentActivityName=".MainActivity"
+        >
+        </activity>
+        <activity android:name=".distanceact"
+                  android:parentActivityName=".MainActivity"
+        >
+        </activity>
+        <activity android:name=".cupact"
+                  android:parentActivityName=".MainActivity"
+        >
+        </activity>
+        <activity android:name=".AboutActivity"
+                  android:parentActivityName=".MainActivity"
+        >
+        </activity>
+    </application>
+
+</manifest>
